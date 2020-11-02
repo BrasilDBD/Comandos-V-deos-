@@ -1,0 +1,10 @@
+$nomention
+$deletecommand
+$color[#f442c8]
+$authorIcon[https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png]
+$author[Youtube Search]
+$description[Search Youtube... https://www.youtube.com/search?q=$replaceText[$message; ;+;-1]
+Search : $message
+Author : $username]
+ 
+ 

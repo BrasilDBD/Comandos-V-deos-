@@ -1,0 +1,35 @@
+$nomention
+$argsCheck[>1;:❌: Tente executar o comando novamente digitando: @userinfo @USER]
+$title[User Info]
+$color[000FFF]
+$userInfo[
+:👤:Avatar:👤:: {email} =======>
+
+:🏷️:Tag:🏷️::
+· <@$mentioned[<]>
+
+:📝:Username:📝::
+· {username}#{discriminator}
+
+:🆔:User ID:🆔::
+· {ID}
+
+:💬:DM Status:💬::
+· $replaceText[$replaceText[$isUserDMEnabled[$mentioned[<]];false;Closed;1];true;Open;1]
+
+:🤖:Bot:🤖::
+· {BOT}
+
+:📅:Data de criação:📅::
+· $creationDate[$mentioned[<]]
+
+:🔶:Maior cargo:🔶::
+· <@&$highestRole[$mentioned[<]]>
+
+:🎭:Cargos:🎭::
+$userRoles[$mentioned[<]]
+
+$footer[Exectutado por: $username#$discriminator[$authorID]]
+$footerIcon[$authorAvatar]
+] 
+ 

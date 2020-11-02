@@ -1,0 +1,6 @@
+$nomention
+$modifyChannelPerms[$channelID;-sendmessages;$guildID]
+$title[Lock]
+$description[Canal fechado por $username]
+$addTimestamp 
+ 

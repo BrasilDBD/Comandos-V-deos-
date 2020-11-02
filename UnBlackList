@@ -1,0 +1,5 @@
+$nomention
+$setVar[blacklist;falso;$mentioned[1]]
+$onlyForIDs[seu id;você não pode executar esse comando]
+$username[$mentioned[1]] saiu da blacklist
+ 

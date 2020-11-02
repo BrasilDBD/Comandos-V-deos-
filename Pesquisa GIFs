@@ -1,0 +1,10 @@
+$nomention
+$deletecommand
+$color[#f442c8]
+$author[GIFs Search]
+$description[Search GIFs...
+https://tenor.com/search/$replaceText[$message; ;+;-1]-gifs
+Search : $message
+Author : $username] 
+ 
+ 

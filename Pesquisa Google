@@ -1,0 +1,9 @@
+$nomention
+$deletecommand
+$color[#f442c8]
+$authorIcon[https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2000px-Google_%22G%22_Logo.svg.png]
+$author[Google Search]
+$description[Search Google... https://www.google.com/search?q=$replaceText[$message; ;+;-1]
+Search : $message
+Author : $username]
+ 

@@ -1,0 +1,33 @@
+$nomention
+$color[#21fc0f]
+$author[ServerInfo]
+$serverInfo[
+:💎:Owner
+{owner}
+
+:📝:Nome do Server 
+{name}
+
+:🆔:ID
+{ID}
+
+:📜:Região 
+{region}
+
+:😎:Emojis Personalizados
+{emoji}
+
+:🔍:Membros 
+Total: $membersCount
+Online: $membersCount[online]
+Ausente: $membersCount[idle]
+Não pertube: $membersCount[dnd]
+Offline: 
+$sub[$membersCount;$membersCount[online];$membersCount[dnd];$membersCount[idle]]
+
+:📊:Server
+Canais: $channelCount
+Quantidade de Cargos: $roleCount
+Nomes dos Cargos:$roleNames
+] 
+ 

@@ -1,0 +1,6 @@
+$nomention
+$modifyChannelPerms[$channelID;+sendmessages;$guildID]
+$title[UnLock]
+$description[Canal aberto por $username]
+$addTimestamp 
+ 

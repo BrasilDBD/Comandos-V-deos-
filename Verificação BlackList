@@ -1,0 +1,2 @@
+$onlyIf[$getVar[blacklist;$authorID]==falso;você está na blacklist e não pode utilizar meus comandos]
+ 
